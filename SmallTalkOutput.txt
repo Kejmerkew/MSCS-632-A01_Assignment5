@@ -1,0 +1,12 @@
+=== All Rides (polymorphic) ===
+[Standard] RideID: 101 | Pickup: 10th St | Dropoff: Main Ave | Distance: 4.2 mi | Fare: $8.3
+[Premium] RideID: 102 | Pickup: Park Blvd | Dropoff: Central | Distance: 7.5 mi | Fare: $27.5
+[Standard] RideID: 103 | Pickup: Union Sq | Dropoff: Elm St | Distance: 2.0 mi | Fare: $5.0
+DriverID: 1 | Name: Alice Smith | Rating: 4.9 | Rides completed: 2
+[Standard] RideID: 101 | Pickup: 10th St | Dropoff: Main Ave | Distance: 4.2 mi | Fare: $8.3
+[Standard] RideID: 103 | Pickup: Union Sq | Dropoff: Elm St | Distance: 2.0 mi | Fare: $5.0
+DriverID: 2 | Name: Bob Jones | Rating: 4.7 | Rides completed: 1
+[Premium] RideID: 102 | Pickup: Park Blvd | Dropoff: Central | Distance: 7.5 mi | Fare: $27.5
+RiderID: 201 | Name: Carol White | Requests: 2
+[Premium] RideID: 102 | Pickup: Park Blvd | Dropoff: Central | Distance: 7.5 mi | Fare: $27.5
+[Standard] RideID: 103 | Pickup: Union Sq | Dropoff: Elm St | Distance: 2.0 mi | Fare: $5.0

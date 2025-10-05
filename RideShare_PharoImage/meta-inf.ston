@@ -1,0 +1,15 @@
+PhLImage {
+	#formatNumber : 68021,
+	#architecture : '64',
+	#pharoVersion : '140',
+	#vmManager : PhLVirtualMachineManager {
+		#imageFile : FileLocator {
+			#path : RelativePath [ 'UCumberlands', 'Fall25', 'AdvancedProgramming', 'Assignment5', 'RideShare_PharoImage', 'RideShare.image' ],
+			#origin : #desktop
+		},
+		#imageFormatNumber : 68021,
+		#imageVersion : '140'
+	},
+	#launchConfigurations : OrderedCollection [ ],
+	#shouldRunInitializationScript : false
+}

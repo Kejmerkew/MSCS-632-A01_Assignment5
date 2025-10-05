@@ -1,0 +1,7 @@
+OmEntry {
+	#tags : {
+		#timestamp : DateAndTime [ '2025-10-05T16:48:02.677-05:00' ],
+		#self : OmReference [ '1' ]
+	},
+	#content : '| r1 r2 r3 driver1 driver2 rider1 rides |\r\r"Create rides"\rr1 := StandardRide new initializeWithID: 101 pickup: \'10th St\' dropoff: \'Main Ave\' distance: 4.2.\rr2 := PremiumRide new initializeWithID: 102 pickup: \'Park Blvd\' dropoff: \'Central\' distance: 7.5.\rr3 := StandardRide new initializeWithID: 103 pickup: \'Union Sq\' dropoff: \'Elm St\' distance: 2.0.\r\rrides := { r1. r2. r3 }.\r\r"Show all rides (polymorphism)"\rTranscript show: \'=== All Rides (polymorphic) ===\'; cr.\rrides do: [:each | Transcript show: (each rideDetails); cr ].\r\r"Create drivers"\rdriver1 := Driver new initializeWithID: 1 name: \'Alice Smith\' rating: 4.9.\rdriver1 addRide: r1; addRide: r3.\rTranscript show: driver1 getDriverInfo; cr.\rdriver1 listRides.\r\rdriver2 := Driver new initializeWithID: 2 name: \'Bob Jones\' rating: 4.7.\rdriver2 addRide: r2.\rTranscript show: driver2 getDriverInfo; cr.\rdriver2 listRides.\r\r"Create rider"\rrider1 := Rider new initializeWithID: 201 name: \'Carol White\'.\rrider1 requestRide: r2.\rrider1 requestRide: r3.\rTranscript show: rider1 getRiderInfo; cr.\rrider1 viewRides.\r'
+}

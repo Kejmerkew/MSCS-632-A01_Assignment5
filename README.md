@@ -24,13 +24,10 @@ The system models **rides, drivers, and riders** and allows dynamic **fare calcu
 #### Smalltalk (Pharo)
 
 1. Install [Pharo](https://pharo.org/).
-2. Open the image included in the repo inside Pharo
-   ```
-   RideShare_PharoImage\RideShare.image
-   ```
+2. Open the image included in the repo inside Pharo located at "RideShare_PharoImage\RideShare.image"
 3. Copy the demo code in RideSharingSystem.st into the Pharo IDE playground
 4. Run the program by hitting "Do It All"
-6. Open the transcript to see the output. If it's blank hit the fetch button.
+5. Open the transcript to see the output. If it's blank hit the fetch button.
 
 #### C++
 
